@@ -11,7 +11,7 @@ INSERT INTO Ticket (name, price, total_quantity, remaining_quantity, status) VAL
 ('Concert A', 50.00, 100, 80, 'AVAILABLE'),
 ('Concert B', 75.00, 150, 150, 'AVAILABLE'),
 ('Theater C', 40.00, 200, 150, 'AVAILABLE'),
-('Festival D', 60.00, 100, 60, 'BOOKED'),
+('Festival D', 60.00, 100, 0, 'BOOKED'),
 ('Sports Event E', 100.00, 300, 290, 'AVAILABLE');
 
 -- Insert sample records into Booking Table
